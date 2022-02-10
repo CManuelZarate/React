@@ -8,11 +8,11 @@ export const getHeroeById = (id) =>{
     /* find recibe un callback, barre cada segmento y extrae heroe hasta encontrar uno q cunple condicion */
 }
 
-console.log( getHeroeById(1) );
+//console.log( getHeroeById(1) );
 
-const getHeroesByOwner = ( owner ) =>{
+export const getHeroesByOwner = ( owner ) =>{
     return heroes.filter( heroe => heroe.owner === owner)
 }
 //Filter:crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada
-console.log( getHeroesByOwner('DC') );
+//console.log( getHeroesByOwner('DC') );
 console.log(owners);
